@@ -10,7 +10,7 @@
 	<properties>
 		<tycho-version>0.25.0</tycho-version>
 		<tycho-extras-version>0.25.0</tycho-extras-version>
-		<maven-antrun-plugin.version>1.7</maven-antrun-plugin.version>
+		<maven-antrun-plugin.version>1.8</maven-antrun-plugin.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	
