@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.eclipse.emf_2.12.0.v20160526-0356.jar" id="org.eclipse.emf" version="2.12.0.v20160526-0356">
+   <feature id="org.eclipse.emf">
+      <category name="example.category"/>
+   </feature>
+   <feature id="org.eclipse.emf.sdk">
       <category name="example.category"/>
    </feature>
    <category-def name="example.category" label="Example">
