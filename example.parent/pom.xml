@@ -24,6 +24,11 @@
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/releases/neon</url>
 		</repository>
+		<repository>
+			<id>parsley</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/emf-parsley/updates/1.0/</url>
+		</repository>
 	</repositories>
 
 	<build>
