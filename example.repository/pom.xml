@@ -89,7 +89,7 @@
 							<goal>run</goal>
 						</goals>
 						<configuration>
-							<target>
+							<target name="xz-artifacts-xml">
 								<taskdef resource="org/apache/ant/compress/antlib.xml"
 									classpathref="maven.plugin.classpath" />
 								<xz
