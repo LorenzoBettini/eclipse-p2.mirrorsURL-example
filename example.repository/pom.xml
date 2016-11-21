@@ -35,8 +35,17 @@
 						</goals>
 						<phase>package</phase>
 						<configuration>
-							<appArgLine>-application org.eclipse.wtp.releng.tools.addRepoProperties</appArgLine>
-							<argLine><![CDATA[-DartifactRepoDirectory=${project.build.directory}/repository -Dp2MirrorsURL=${p2.mirrorsURL} -Dp2StatsURI=${p2.statsURL} -DstatsTrackedArtifacts=${p2.statsTrackedArtifacts} -DstatsArtifactsSuffix=-${project.version}]]></argLine>
+							<applicationsArgs>
+								<arg>-application</arg>
+								<arg>org.eclipse.wtp.releng.tools.addRepoProperties</arg>
+							</applicationsArgs>
+							<jvmArgs>
+								<arg>-DartifactRepoDirectory=${project.build.directory}/repository</arg>
+								<arg>-Dp2MirrorsURL=${p2.mirrorsURL}</arg>
+								<arg>-Dp2StatsURI=${p2.statsURL}</arg>
+								<arg>-DstatsTrackedArtifacts=${p2.statsTrackedArtifacts}</arg>
+								<arg>-DstatsArtifactsSuffix=-${project.version}</arg>
+							</jvmArgs>
 							<work>${project.build.directory}/eclipserun-work-first</work>
 							<dependencies>
 								<dependency>
