@@ -35,6 +35,7 @@
 					<execution>
 						<!--
 							(1)
+							See <http://wiki.eclipse.org/Equinox/p2/p2.mirrorsURL>.
 							This will add the mirror and statistics properties to your
 							artifacts.jar, but NOT to artifacts.xml.xz,
 							since p2 can only read artifacts.xml.zx but now write into it
